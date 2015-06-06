@@ -1,0 +1,62 @@
+[
+  {
+    "name": "id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "credentials",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "advertiser_id",
+    "type": "int",
+    "sort_by": false,
+    "filter_by": true
+  },
+  {
+    "name": "member_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "active",
+    "type": "boolean",
+    "sort_by": false,
+    "filter_by": true
+  },
+  {
+    "name": "is_data_integration_active",
+    "type": "boolean",
+    "sort_by": false,
+    "filter_by": true
+  },
+  {
+    "name": "creative_custom_request_partner_id",
+    "type": "int",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "processed_on",
+    "type": "date",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "last_modified",
+    "type": "date",
+    "sort_by": true,
+    "filter_by": true
+  }
+]

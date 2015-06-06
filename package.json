@@ -1,0 +1,38 @@
+{
+	"name": "anx-cli",
+	"version": "0.1.5",
+	"description": "",
+	"author": "Tim Santeford <tsantef@gmail.com>",
+	"main": "index.js",
+	"keywords": [
+		"AppNexus",
+		"Advertising"
+	],
+	"licenses": [{
+		"type": "Apache-2.0",
+		"url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"anx": "./bin/anx"
+	},
+	"dependencies": {
+		"commander": "~2.0.0",
+		"request": "~2.27.0",
+		"prompt": "~0.2.11",
+		"lodash": "~2.3.0",
+		"cli-table": "~0.2.0",
+		"inflection": "~1.2.6",
+		"colors": "~0.6.2",
+		"open": "0.0.4",
+		"tmp": "0.0.23",
+		"moment": "^2.6.0",
+		"bluebird": "^2.2.2"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"grunt-contrib-jshint": "~0.7.2"
+	}
+}

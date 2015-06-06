@@ -1,0 +1,276 @@
+[
+  {
+    "name": "creative_custom_request_partner_credentials",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "creative_custom_request_partner_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "name",
+        "type": "default_value",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_required",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "is_obscured",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false,
+        "read_only": true
+      }
+    ]
+  },
+  {
+    "name": "creative_custom_request_integration",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "creative_custom_request_partner_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "supported",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "active",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "data_timezone",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "data_granularity",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false,
+        "read_only": true
+      }
+    ]
+  },
+  {
+    "name": "creative_custom_request_templates",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "macros",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "template_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "is_required",
+            "type": "boolean",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "last_modified",
+            "type": "date",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "type_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "creative_custom_request_partner_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "member_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "hostname",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "uri",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "port",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_post",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "timeout_ms",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_client",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      }
+    ]
+  },
+  {
+    "name": "id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "macro_type",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "member_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "last_modified",
+    "type": "date",
+    "sort_by": true,
+    "filter_by": true
+  }
+]

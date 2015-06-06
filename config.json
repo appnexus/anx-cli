@@ -1,0 +1,113 @@
+{
+	"cache_max_age": 10,
+	"member_id": null,
+	"page_size": 0,
+	"editor": "vi",
+	"theme": {
+		"header": "yellow",
+		"columns": {
+			"id": "green",
+			"name": "cyan"
+		},
+		"types": {
+			"date": "magenta",
+			"boolean": "blue",
+			"string": "white",
+			"decimal": "green",
+			"int": "green",
+			"number": "green",
+			"null": "yellow"
+		},
+		"values": {
+			"true": "white",
+			"false": "grey"
+		}
+	},
+	"services": {
+		"creative-custom-request-partners": {
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"member_id": {}
+			}
+		},
+		"mediated-bids": {
+			"memberRequired": true,
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"mediated_network.id": {},
+				"member_id": {},
+				"active": {},
+				"line_item_id": {},
+				"campaign_id": {},
+				"creative_id": {},
+				"profile_id": {}
+			}
+		},
+		"mediated-networks": {
+			"memberRequired": true,
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"bid_count": {},
+				"member_id": {},
+				"advertiser_id": {},
+				"active": {},
+				"is_data_integration_active": {
+					"label": "Integration Active"
+				}
+			}
+		},
+		"rapid-reports": {
+			"url": "rapid-reports"
+		},
+		"advertisers": {
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"member_id": {}
+			}
+		},
+		"creatives": {
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"advertiser_id": {}
+			}
+		},
+		"creative-custom-request-templates": {},
+		"media-types": {
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"media_type_group_id": {},
+				"uses_sizes": {}
+			}
+		},
+		"media-subtypes": {
+			"listColumns": {
+				"id": {},
+				"name": {},
+				"media_type": {}
+			}
+		},
+		"publishers": {
+			"listColumns": {
+				"id": {},
+				"member_id": {},
+				"name": {},
+				"reselling_exposure": {}
+			}
+		},
+		"templates": {},
+		"users": {
+			"listColumns": {
+				"id": {},
+				"username": {},
+				"first_name": {},
+				"user_type": {}
+			}
+		}
+	}
+}

@@ -1,0 +1,4500 @@
+[
+  {
+    "name": "campaign",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "creatives",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "mapping_state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_self_audited",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "pop_window_maximize",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_prohibited",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_expired",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "audit_status",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "width",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "height",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "pixels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "roi_click_goal",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "roi_view_goal",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "click_payout",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "view_payout",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "trigger_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "optimization_lookback",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "day",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "bias_percent",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "campaign_modifiers",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "value",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "labels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "broker_fees",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "broker_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "value",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "broker_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "valuation",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "min_margin_rtb_pct",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "min_margin_managed_pct",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "use_min_margin_managed",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "eap_multiplier",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "read_only": true,
+        "name": "parent_inactive",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "code",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "advertiser_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "line_item_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "creative_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "pixel_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "short_name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "profile_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "start_date",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "end_date",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "timezone",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "priority",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "cadence_modifier_enabled",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "cpc_goal",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "cpm_bid_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "base_bid",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "min_bid",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_bid",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "bid_margin",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "roadblock_creatives",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "roadblock_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "inventory_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "supply_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_learn_bid",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "cadence_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "member_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "click_url",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "require_cookie_for_tracking",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "allow_unverified_ecp",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "defer_to_li_prediction",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "ecp_learn_divisor",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "projected_learn_events",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "confidence_threshold",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "learn_threshold",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "cpc_payout",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "comments",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "optimization_lever_mode",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "optimization_version",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "learn_override_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "base_cpm_bid_value",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "profile_code",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "learn_budget",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "learn_budget_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "learn_budget_daily_cap",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "learn_budget_daily_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "impression_limit",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "bid_multiplier",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_malicious",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_budget",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_budget_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "daily_budget",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "daily_budget_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "enable_pacing",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_pacing",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_pacing_span",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "allow_safety_pacing",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "search",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "remaining_days",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "total_days",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      }
+    ]
+  },
+  {
+    "name": "line-item",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "labels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "broker_fees",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "broker_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "value",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "broker_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "pixels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_view_revenue",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_click_revenue",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "trigger_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "insertion_orders",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "advertiser_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "start_date",
+            "type": "date",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "end_date",
+            "type": "date",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "timezone",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "last_modified",
+            "type": "date",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "goal_pixels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_view_goal",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_click_goal",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_view_goal_threshold",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_click_goal_threshold",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_view_goal_target",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "post_click_goal_target",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "trigger_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "imptrackers",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "member_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "advertiser_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "publisher_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "publisher_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "tag_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "tag_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "tag",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_rule_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "payment_rule_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_rule",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "line_item_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "line_item_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "line_item",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "last_modified",
+            "type": "date",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "clicktracker_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "clicktracker_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "clicktracker",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "clicktrackers",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "member_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "advertiser_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "publisher_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "publisher_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "tag_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "tag_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "tag",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_rule_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "payment_rule_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "payment_rule",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "line_item_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "line_item_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "line_item",
+            "type": "multi_object",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "click_url",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "last_modified",
+            "type": "date",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "campaigns",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "inventory_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "cpm_bid_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "valuation",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "min_margin_pct",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "max_avg_cpm",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "min_avg_cpm",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "goal_target",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "goal_threshold",
+            "type": "double",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "no_revenue_log",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "creatives",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "width",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "height",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "audit_status",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_expired",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_prohibited",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_self_audited",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "pop_window_maximize",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "code",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "advertiser_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "grouped_advertiser_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "start_date",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "end_date",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "timezone",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "discrepancy_pct",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_budget",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "lifetime_budget_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "daily_budget",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "daily_budget_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "enable_pacing",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "lifetime_pacing",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "lifetime_pacing_span",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "allow_safety_pacing",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "publishers_allowed",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "revenue_value",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "revenue_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "goal_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "goal_value",
+        "type": "double",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "click_url",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "require_cookie_for_tracking",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "advertiser",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "advertiser_name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "profile_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "member_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "flat_fee",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "flat_fee_status",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "flat_fee_allocation_date",
+        "type": "date",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "flat_fee_adjustment_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "comments",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "is_malicious",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "search",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "remaining_days",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "total_days",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "manage_creative",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      }
+    ]
+  },
+  {
+    "name": "profile",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "country_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "country",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "region_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "region",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "country_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "city_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "country_code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "country_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "region_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "region_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "inv_class_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "inv_class",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "inventory_source_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "inventory_attribute_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "age_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "low",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "high",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "daypart_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "day",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "start_hour",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "end_hour",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "browser_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "browser_family_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "dma_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "dma",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "domain_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "profile_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "domain",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "domain_list_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "language_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "size_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "width",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "height",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "zip_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "from_zip",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "to_zip",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "member_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "third_party_auditor_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "billing_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "segment_group_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "segments",
+            "type": "array of objects",
+            "sort_by": false,
+            "filter_by": false,
+            "fields": [
+              {
+                "name": "other_in_list",
+                "type": "array of objects",
+                "sort_by": false,
+                "filter_by": false,
+                "fields": [
+                  {
+                    "name": "value",
+                    "type": "string",
+                    "sort_by": false,
+                    "filter_by": false
+                  }
+                ]
+              },
+              {
+                "name": "profile_target_segment_id",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "id",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "action",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "start_minutes",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "expire_minutes",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "other_less",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "other_greater",
+                "type": "int",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "other_equals",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "code",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              },
+              {
+                "name": "deleted",
+                "type": "boolean",
+                "sort_by": false,
+                "filter_by": false
+              }
+            ]
+          },
+          {
+            "name": "segment_group_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": true
+          },
+          {
+            "name": "boolean_operator",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "carrier_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "country",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "supply_type_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "supply_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "device_type_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "device_type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "screen_size_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "min_screen_width",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "min_screen_height",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "max_screen_width",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "max_screen_height",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "device_model_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "querystring_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "qsparam",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "gender_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "gender",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "intended_audience_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "intended_audience",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "inventory_group_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "inventory_network_resold_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "ip_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "from_ip",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "to_ip",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "operating_system_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "operating_system_family_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "position_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "position",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "site_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "venue_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "venue_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "operating_system_extended_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "mobile_app_instance_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "bundle_id",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "os_family_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "mobile_app_instance_list_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "content_category_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_system",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "deal_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "placement_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "site_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "site_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "publisher_name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "platform_content_category_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "is_system",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "platform_placement_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "platform_publisher_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "publisher_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "segment_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "other_in_list",
+            "type": "array of objects",
+            "sort_by": false,
+            "filter_by": false,
+            "fields": [
+              {
+                "name": "value",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              }
+            ]
+          },
+          {
+            "name": "profile_target_segment_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "start_minutes",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "expire_minutes",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_less",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_greater",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_equals",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "exelate_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "other_in_list",
+            "type": "array of objects",
+            "sort_by": false,
+            "filter_by": false,
+            "fields": [
+              {
+                "name": "value",
+                "type": "string",
+                "sort_by": false,
+                "filter_by": false
+              }
+            ]
+          },
+          {
+            "name": "profile_target_segment_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "start_minutes",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "expire_minutes",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_less",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_greater",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "other_equals",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "ip_range_list_targets",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "include",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "deleted",
+            "type": "boolean",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "code",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "country_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "region_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "city_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "browser_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "use_inventory_attribute_targets",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "age_default",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true,
+        "read_only": true
+      },
+      {
+        "name": "daypart_timezone",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "dma_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "domain_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "domain_list_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "inventory_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "language_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "segment_boolean_operator",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "min_session_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "session_freq_type",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "carrier_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "supply_type_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "device_type_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "screen_size_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "device_model_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "location_target_radius",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "location_target_latitude",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "location_target_longitude",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "querystring_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "querystring_boolean_operator",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_expired",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "non_audited_url_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "daypart_bitmap",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "mobile_app_instance_action_include",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "mobile_app_instance_list_action_include",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "advertiser_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "publisher_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "content_category_default",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "gender_default",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "position_default",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_session_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_day_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_lifetime_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "max_page_imps",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "min_minutes_per_imp",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "venue_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "operating_system_action",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "require_cookie_for_freq_cap",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "trust",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "allow_unaudited",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_template",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "user_group_targets",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "created_on",
+        "type": "date",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "use_operating_system_extended_targeting",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "operating_system_family_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      }
+    ]
+  },
+  {
+    "name": "creative",
+    "type": "array of objects",
+    "sort_by": false,
+    "filter_by": false,
+    "fields": [
+      {
+        "name": "custom_macros",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "segments",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "segment_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "action",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "categories",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "adservers",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "use_type",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "self_declared",
+            "type": "boolean",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "technical_attributes",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "folder",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "campaigns",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "campaign_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "creative_id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "line_items",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "competitive_brands",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "competitive_categories",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": true,
+            "filter_by": true
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "sort_by": true,
+            "filter_by": true
+          }
+        ]
+      },
+      {
+        "name": "pixels",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "pixel_template_id",
+            "type": "int",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "param_1",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "param_2",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "param_3",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "param_4",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "param_5",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "format",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "content",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "secure_content",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          },
+          {
+            "name": "secure_url",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "mobile",
+        "type": "array of objects",
+        "sort_by": false,
+        "filter_by": false,
+        "fields": [
+          {
+            "name": "alternative_landing_page_url",
+            "type": "string",
+            "sort_by": false,
+            "filter_by": false
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "brand_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "media_url",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "template_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "custom_request_template",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "content_source",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "code",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "code2",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "member_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "click_track_result",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "advertiser_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "publisher_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "campaigns",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "width",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "height",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "click_url",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "flash_click_variable",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "no_iframes",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "original_content",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "file_name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "track_clicks",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "audit_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "macros",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "lifetime_budget",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "lifetime_budget_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "daily_budget",
+        "type": "double",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "daily_budget_imps",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "enable_pacing",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "allow_safety_pacing",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "profile_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "folder",
+        "type": "object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "audit_feedback",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "is_prohibited",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_suspicious",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "created_on",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "flash_backup_url",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "last_modified",
+        "type": "date",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_control",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "allow_audit",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "is_expired",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "upload_status",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "segments",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "creative_upload_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "backup_upload_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "filter",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "landing_page_url",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "categories",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "adservers",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "language.name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "language.id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "language",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "use_dynamic_click_url",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "currency",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "media_subtypes",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_is_tag_initiated",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_window_maximize",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_window_title",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_addressbar",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_statusbar",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_menubar",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_resizable",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_scrollbars",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_toolbar",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "pop_values",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "size_in_bytes",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "google_audit_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "google_audit_feedback",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "msft_audit_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "msft_audit_feedback",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "msft_external_audit_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": false
+      },
+      {
+        "name": "msft_external_audit_feedback",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "is_self_audited",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "brand.id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "brand.name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "brand.category_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "brand",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "competitive_brands",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "competitive_categories",
+        "type": "array",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "no_adservers",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "text_title",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "text_description",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "text_display_url",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "click_action",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "sla",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "sla_eta",
+        "type": "date",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "click_target",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "ssl_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "allow_ssl_audit",
+        "type": "boolean",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "media_url_secure",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "content_secure",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "original_content_secure",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "flash_backup_url_secure",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "template.name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "template.media_subtype_id",
+        "type": "int",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "template.format_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "template",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "is_hosted",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "facebook_audit_status",
+        "type": "string",
+        "sort_by": true,
+        "filter_by": true
+      },
+      {
+        "name": "facebook_audit_feedback",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "read_only": true,
+        "name": "facebook_creative_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "read_only": true,
+        "name": "facebook_campaign_id",
+        "type": "int",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "apn_review",
+        "type": "boolean",
+        "sort_by": false,
+        "filter_by": true
+      },
+      {
+        "name": "thirdparty_page_id",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "thirdparty_page_name",
+        "type": "string",
+        "sort_by": false,
+        "filter_by": false
+      },
+      {
+        "name": "thirdparty_page",
+        "type": "multi_object",
+        "sort_by": false,
+        "filter_by": false
+      }
+    ]
+  },
+  {
+    "name": "id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "type",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "sort_by": true,
+    "filter_by": false
+  },
+  {
+    "name": "active",
+    "type": "boolean",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "mediated_network_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "mediated_network",
+    "type": "multi_object",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "cmn.name",
+    "type": "string",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "cmn.advertiser_id",
+    "type": "int",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "cmn.active",
+    "type": "boolean",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "cmn.creative_custom_request_partner_id",
+    "type": "int",
+    "sort_by": false,
+    "filter_by": false
+  },
+  {
+    "name": "member_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "line_item_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "campaign_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "creative_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "profile_id",
+    "type": "int",
+    "sort_by": true,
+    "filter_by": true
+  },
+  {
+    "name": "last_modified",
+    "type": "date",
+    "sort_by": true,
+    "filter_by": true
+  }
+]
