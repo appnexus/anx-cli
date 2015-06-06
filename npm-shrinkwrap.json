@@ -1,6 +1,6 @@
 {
   "name": "anx-cli",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "dependencies": {
     "bluebird": {
       "version": "2.2.2",
