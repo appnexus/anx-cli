@@ -21,20 +21,20 @@
     "anx": "./bin/anx"
   },
   "dependencies": {
-    "bluebird": "^2.2.2",
-    "cli-table": "~0.2.0",
-    "colors": "~0.6.2",
-    "commander": "~2.0.0",
-    "inflection": "~1.2.6",
+    "bluebird": "^3.3.4",
+    "cli-table": "~0.3.1",
+    "colors": "~1.1.2",
+    "commander": "~2.9.0",
+    "inflection": "^1.8.0",
     "lodash": "^4.7.0",
     "moment": "^2.6.0",
-    "open": "0.0.4",
-    "prompt": "~0.2.11",
-    "request": "~2.27.0",
-    "tmp": "0.0.23"
+    "open": "0.0.5",
+    "prompt": "~1.0.0",
+    "request": "^2.69.0",
+    "tmp": "0.0.28"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.7.2"
+    "grunt-contrib-jshint": "~1.0.0"
   }
 }
