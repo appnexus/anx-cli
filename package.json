@@ -15,7 +15,7 @@
     }
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/*.mspec.js"
   },
   "bin": {
     "anx": "./bin/anx"
@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~1.0.0"
+    "grunt-contrib-jshint": "~1.0.0",
+    "mocha": "^2.4.5"
   }
 }
